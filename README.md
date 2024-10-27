@@ -1,4 +1,6 @@
 ﻿# SkinCareAI
+
+Remember to add .env file with API Keys
 ## Inspiration
 As young adults, we have seen so many friends and people around us all facing issues with acne and skincare. One option can be going to the dermatologist but knowing which doctor is the best for you is another task. Plus, we all know from experience that skincare is a long battle where a proper routine and right products are your biggest allies. The inspiration for Skincare.ai is to simplify the challenge of building a proper routine and choosing the right products for you to get the perfect clear skin you always wanted.
 
