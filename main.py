@@ -280,5 +280,6 @@ def generate_history_output(history):
     else:
         return f"Noticeably, your acne has increased from {previous_acne_count} to {current_acne_count}. Consider reviewing your skincare routine."
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(getenv("PORT", 8000))
+    uvicorn.run("app.api:app", host="0.0.0.0", port=port, reload=True)
 
